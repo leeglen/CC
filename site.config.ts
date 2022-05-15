@@ -2,16 +2,16 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '69300519aa2a465aa70f4f12edd1e3e0',
+  rootNotionPageId: 'ca1a6948a53f4562a47ce83a9412b4b7',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: 'o-id',
 
   // basic site info (required)
-  name: 'o-id',
-  domain: 'o-id.cc',
-  author: 'o-id',
+  name: 'LIGAN',
+  domain: 'LIGAN.cc',
+  author: 'LIGAN',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
@@ -54,11 +54,15 @@ export default siteConfig({
      navigationLinks: [
        {
          title: 'About',
-         pageId: '2c53271e47464ca59f021907db220508'
+         pageId: '72af5f5b7c2244aa875a45bd0a4650c0'
+       },
+       {
+         title: 'Idea',
+         pageId: '47b5a54f7f9d45f584b7823c32a0af54'
        },
        {
          title: 'Contact',
-         pageId: 'b8b7971e749b41f487a1d00c40eb7a0d'
+         pageId: 'f8903ada47814765b64d0a5f3b1af0ca'
        }
      ]
 })
