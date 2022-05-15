@@ -80,10 +80,10 @@
 }
 
 .twitter .actionBgPane {
-  background: #2795e9;
+  background: #1d9bf0;
 }
 .twitter:hover {
-  border-color: #2795e9;
+  border-color: #1d9bf0;
 }
 
 .linkedin .actionBgPane {
@@ -94,17 +94,17 @@
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #24292f;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #24292f;
 }
 
 .zhihu .actionBgPane {
-  background: #0066FF;
+  background: #0368ff;
 }
 .zhihu:hover {
-  border-color: #0066FF;
+  border-color: #0368ff;
 }
 
 .medium .actionBgPane {
