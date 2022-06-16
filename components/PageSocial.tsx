@@ -26,7 +26,7 @@ const socialLinks: SocialLink[] = [
 
   config.zhihu && {
     name: 'zhihu',
-    href: `https://zhihu.com/people/${config.github}`,
+    href: `https://zhihu.com/people/${config.zhihu}`,
     title: `zhihu @${config.zhihu}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 30'>
